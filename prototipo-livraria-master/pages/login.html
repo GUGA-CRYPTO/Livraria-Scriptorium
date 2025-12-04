@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login - Scriptorium</title>
+    <link rel="stylesheet" href="../css/global.css" />
+    <link rel="stylesheet" href="../css/pages.css" />
+    <link rel="stylesheet" href="../css/auth.css" />
+  </head>
+  <body>
+    <video autoplay loop muted playsinline id="background-video">
+      <source src="../assets/videos/Livraria2.mp4" type="video/mp4" />
+    </video>
+
+    <div id="navbar-container"></div>
+
+    <main class="container">
+      <div class="page-title">
+        <h2>Entrar</h2>
+        <p>Use seu e-mail e senha para acessar sua conta.</p>
+      </div>
+
+      <div class="auth-container">
+        <form id="login-form" class="auth-form">
+          <label for="email">E-mail</label>
+          <input type="email" id="email" required />
+
+          <label for="password">Senha</label>
+          <input type="password" id="password" required minlength="4" />
+
+          <button type="submit">Entrar</button>
+        </form>
+
+        <p class="auth-note">Não tem uma conta? <a href="./signup.html">Cadastre-se</a></p>
+      </div>
+    </main>
+
+    <footer class="main-footer">
+      <p>Um refúgio para o conhecimento.</p>
+    </footer>
+
+    <script src="../js/utils.js"></script>
+    <script src="../js/navbarLoader.js"></script>
+    <script src="../js/login.js" defer></script>
+  </body>
+</html>

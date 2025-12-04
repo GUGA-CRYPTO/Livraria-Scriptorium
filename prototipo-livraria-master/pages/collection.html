@@ -1,0 +1,49 @@
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Minha Coleção - Scriptorium</title>
+    <link rel="stylesheet" href="../css/global.css" />
+    <link rel="stylesheet" href="../css/pages.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;700&family=Inter:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body class="collection-page">
+
+    
+    <video autoplay loop muted playsinline id="background-video">
+      <source src="../assets/videos/Livraria2.mp4" type="video/mp4" />
+    </video>
+
+    
+    <div id="navbar-container"></div>
+
+    
+    <main class="container">
+    
+      <div class="page-title">
+        <h2>Minha Coleção</h2>
+        <p>Os manuscritos e obras que você salvou para a posteridade.</p>
+      </div>
+
+     
+      <div id="book-grid" class="book-grid"></div>
+    </main>
+
+   
+    <footer class="main-footer">
+      <p>Um refúgio para o conhecimento.</p>
+    </footer>
+
+    
+    <script src="../js/utils.js"></script>
+    <script src="../js/navbarLoader.js"></script>
+    <script src="../js/collection.js" defer></script>
+  </body>
+</html>

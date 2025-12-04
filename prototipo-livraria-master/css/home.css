@@ -1,0 +1,32 @@
+.container {
+    flex-grow: 1;
+    text-align: center;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.site-title {
+    font-family: var(--font-serif);
+    font-size: 5rem;
+    font-weight: 700;
+    letter-spacing: 2px;
+    color: var(--text-color);
+}
+
+.quote {
+    font-family: var(--font-serif);
+    font-size: 1.5rem;
+    font-style: italic;
+    max-width: 600px;
+    margin: 1.5rem auto 0;
+    line-height: 1.6;
+}
+
+.quote cite {
+    display: block;
+    margin-top: 1rem;
+    font-size: 1rem;
+    font-style: normal;
+    color: var(--accent-color);
+}

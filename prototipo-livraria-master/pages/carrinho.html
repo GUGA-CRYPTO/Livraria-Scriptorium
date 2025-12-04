@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Carrinho - Scriptorium</title>
+    <link rel="stylesheet" href="../css/global.css" />
+    <link rel="stylesheet" href="../css/pages.css" />
+    <link rel="stylesheet" href="../css/cart.css" />
+  </head>
+  <body>
+
+    <video autoplay loop muted playsinline id="background-video">
+      <source src="../assets/videos/Enciclo.mp4" type="video/mp4" />
+    </video>
+
+    <div id="navbar-container"></div>
+
+    <main class="container">
+      <div class="page-title">
+        <h2>Carrinho de Compras</h2>
+        <p>Revise seus itens antes de finalizar a compra.</p>
+      </div>
+
+      <div id="cart-grid" class="book-grid"></div>
+
+      <div class="payment-methods">
+        <h3 class="payment-title">Formas de Pagamento Aceitas</h3>
+        <div class="payment-icons">
+          <img src="https://img.shields.io/badge/-Visa-blue?style=for-the-badge&logo=visa" alt="Visa" />
+          <img src="https://img.shields.io/badge/-Mastercard-red?style=for-the-badge&logo=mastercard" alt="Mastercard" />
+          <img src="https://img.shields.io/badge/-PayPal-blue?style=for-the-badge&logo=paypal" alt="PayPal" />
+          <img src="https://img.shields.io/badge/-Pix-green?style=for-the-badge&logo=pix" alt="Pix" />
+        </div>
+      </div>
+
+      <div class="cart-actions">
+        <div class="cart-total">
+          <span>Total:</span>
+          <span id="cart-total-value">R$ 0,00</span>
+        </div>
+        <button id="finalize-button">Finalizar Compra (fictícia)</button>
+      </div>
+    </main>
+
+    <footer class="main-footer">
+      <p>Um refúgio para o conhecimento.</p>
+    </footer>
+
+    <script src="../js/utils.js"></script>
+    <script src="../js/navbarLoader.js"></script>
+    <script src="../js/cart.js" defer></script>
+  </body>
+</html>

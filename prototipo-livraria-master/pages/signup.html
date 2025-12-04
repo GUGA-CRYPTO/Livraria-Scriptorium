@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cadastre-se - Scriptorium</title>
+    <link rel="stylesheet" href="../css/global.css" />
+    <link rel="stylesheet" href="../css/pages.css" />
+    <link rel="stylesheet" href="../css/auth.css" />
+  </head>
+  <body>
+    <video autoplay loop muted playsinline id="background-video">
+      <source src="../assets/videos/Livraria2.mp4" type="video/mp4" />
+    </video>
+
+    <div id="navbar-container"></div>
+
+    <main class="container">
+      <div class="page-title">
+        <h2>Cadastre-se</h2>
+        <p>Crie sua conta para salvar sua coleção e usar o carrinho.</p>
+      </div>
+
+      <div class="auth-container">
+        <form id="signup-form" class="auth-form">
+          <label for="name">Nome</label>
+          <input type="text" id="name" required />
+
+          <label for="email">E-mail</label>
+          <input type="email" id="email" required />
+
+          <label for="password">Senha</label>
+          <input type="password" id="password" required minlength="4" />
+
+          <label for="passwordConfirm">Confirmar senha</label>
+          <input type="password" id="passwordConfirm" required minlength="4" />
+
+          <button type="submit">Criar Conta</button>
+        </form>
+
+        <p class="auth-note">Já tem conta? <a href="./login.html">Entrar</a></p>
+      </div>
+    </main>
+
+    <footer class="main-footer">
+      <p>Um refúgio para o conhecimento.</p>
+    </footer>
+
+    <script src="../js/utils.js"></script>
+    <script src="../js/navbarLoader.js"></script>
+    <script src="../js/signup.js" defer></script>
+  </body>
+</html>
