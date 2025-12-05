@@ -9,7 +9,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
   function logout() {
     localStorage.removeItem('loggedUser');
-    window.location.href = './home.html';
+    window.location.href = './index.html';
   }
 
   
